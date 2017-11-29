@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Asmaa_Task2_Taboogh</string>
+    <string name="Name">Name</string>
+    <string name="Email">Email</string>
+    <string name="Subject">Subject</string>
+    <string name="Message">Message</string>
+    <string name="aboutus">About Us</string>
+    <string name="subject">Subject</string>
+    <string name="invalid_name">Please enter a valid name greater than 3 letters</string>
+    <string name="invalid_email">Please enter a valid email</string>
+    <string name="invalid_subjet">Please enter a valid subject greater than 3 letters</string>
+    <string name="invalid_message">Please enter a valid subject greater than 50 letters</string>
+    <string name="correct_errors">Please try again  </string>
+    <string name="title_activity_contactus_v2">contactusV2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="Send">send</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="info_aboutUs2">The signing ceremony was also attended by the Director General of the Turkish Red Crescent Society, Dr. Mohammad Guloglu, and the Coordinator of Ground Operations at the Association Kader Akinduz</string>
+    <string name="info_aboutUs3">The agreement was signed by the Turkish President, Dr. Abdullah Al-Maatouq, and by the Turkish Red Crescent President Dr. Karim Kenek. The visit was attended by Kuwaiti Ambassador to Ankara Ghassan Al-Zawawi, Director General Bader Al-Sumait, International Relations Advisor Hadeel Al-Sabti and Diplomatic Attaché Habib Al-Duweila.</string>
+    <string name="info_aboutUs1">The International Islamic Charitable Society of Kuwait and the Turkish Red Crescent Society signed Friday a memorandum of understanding to achieve strategic partnership in helping vulnerable and disadvantaged groups around the world.</string>
+    <string name="about_us">About Us</string>
+    <string name="policyprivacy">policy privacy</string>
+    <string name="return_policy">Return Policy</string>
+    <string name="termscondition">Terms Condition</string>
+    <string name="company">Companies</string>
+    <string name="supplier">supplier</string>
+
+</resources>

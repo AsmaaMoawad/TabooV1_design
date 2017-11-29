@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_return_policy"
+    tools:context="com.example.asmaa.asmaa_task2_taboogh.Activities.ReturnPolicyActivity"
+    style="@style/Container"
+    >
+
+    <ScrollView
+        android:id="@+id/scrollpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_title"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+           style="@style/linearContent"
+            >
+
+
+
+            <TextView
+                android:text="@string/info_aboutUs1"
+                style="@style/StyleParagraph"
+                android:drawableStart="@drawable/arrow"
+                />
+
+            <TextView
+                android:drawableStart="@drawable/arrow"
+                android:text="@string/info_aboutUs3"
+                style="@style/StyleParagraph" />
+
+            <TextView
+                android:drawableStart="@drawable/arrow"
+                android:text="@string/info_aboutUs2"
+                style="@style/StyleParagraph" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        style="@style/LinearTitle"
+        android:id="@id/layout_title"
+ >
+
+
+
+        <TextView
+
+            android:text="@string/return_policy"
+            style="@style/Title"
+
+            />
+    </LinearLayout>
+</RelativeLayout>

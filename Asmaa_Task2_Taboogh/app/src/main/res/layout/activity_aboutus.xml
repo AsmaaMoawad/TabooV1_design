@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.asmaa.asmaa_task2_taboogh.Activities.AboutActivity"
+    style="@style/Container"
+   >
+
+
+
+
+    <LinearLayout
+        style="@style/LinearTitle"
+        android:id="@id/AboutUs_title">
+
+
+        <TextView
+            android:text="@string/about_us"
+            style="@style/Title"
+            />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_below="@id/AboutUs_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+       style="@style/linearContent">
+
+
+
+               <TextView
+                android:drawableStart="@drawable/avatar"
+                style="@style/StyleParagraph"
+                android:text="@string/info_aboutUs1"
+                />
+
+                <TextView
+                    android:drawableStart="@drawable/avatar"
+                    android:text="@string/info_aboutUs3"
+                    style="@style/StyleParagraph"
+                    />
+
+                <TextView
+                    android:drawableStart="@drawable/avatar"
+                    android:text="@string/info_aboutUs2"
+                    style="@style/StyleParagraph" />
+            </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

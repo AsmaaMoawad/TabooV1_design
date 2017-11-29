@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aboutus">نبذه عنا</string>
+    <string name="Name">الاسم</string>
+    <string name="Email">البريد الالكترونى</string>
+    <string name="Subject">العنوان</string>
+    <string name="Message">الرساله</string>
+
+
+    <string name="invalid_name">من فضلك ادخل الاسم لا يقل عن ثلاثة حروف</string>
+    <string name="invalid_email">من فضلك ادخل الايميل الصحيح</string>
+    <string name="invalid_subjet">من فضلك ادخل العنوان لا يقل عن ثلاثة حروف</string>
+    <string name="invalid_message">من فضلك ادخل الاسم لا يقل عن خمسين حرف</string>
+    <string name="correct_errors">من فضلك حاول مره اخرى  </string>
+    <string name="Send">إرسال</string>
+    <string name="subject">العنوان</string>
+    <string name="contact_us">إتصل بنا</string>
+    <string name="info_aboutUs3">ووقع الاتفاقية عن الجانب الكويتي رئيس الهيئة الدكتور عبدالله المعتوق فيما وقعها عن الجانب التركي رئيس الهلال الاحمر التركي الدكتور كريم كينيك بحضور السفير الكويتي لدى أنقرة غسان الزواوي والمدير العام للهيئة بدر السميط ومستشار العلاقات الدولية بالهيئة هديل السبتي والملحق الدبلوماسي بالسفارة حبيب الدويلة.</string>
+    <string name="info_aboutUs2">كما حضر توقيع الاتفاقية المدير العام لجمعية الهلال الاحمر التركية الدكتور محمد غل أوغلو ومنسق العمليات الارضية بالجمعية قادر أكيندوز</string>
+    <string name="info_aboutUs1">وقعت الهيئة الخيرية الاسلامية العالمية الكويتية وجمعية الهلال الأحمر التركية اليوم الجمعة مذكرة تفاهم لتحقيق الشراكة الاستراتيجية في مساعدة الفئات الضعيفة والمحرومين في جميع انحاء العالم.</string>
+    <string name="about_us">نبذه عنا</string>
+    <string name="policyprivacy">ٍسياسة الخصوصيه </string>
+    <string name="return_policy">سياسة الإرجاع</string>
+    <string name="termscondition">الاحكام والشروط</string>
+    <string name="company">الشركات</string>
+    <string name="supplier">الموردين</string>
+
+
+</resources>

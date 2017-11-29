@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_company"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.asmaa.asmaa_task2_taboogh.Activities.CompanyActivity"
+    android:orientation="vertical">
+    <TextView
+       style="@style/Title"
+        android:text="@string/company"
+        android:background="@drawable/background"
+        android:layout_height="60dp"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerviewCompany"
+        >
+
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

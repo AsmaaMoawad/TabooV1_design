@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:padding="16dp"
+    android:weightSum="1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:background="@color/lightgreen"
+
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/logo"
+                android:layout_gravity="center"
+                android:id="@+id/imageView2"
+                android:background="@drawable/circlewhite"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aboutus"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:shadowColor="@color/grey"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+       android:layout_width="match_parent"
+       android:background="@color/lightgreen"
+       android:layout_marginTop="@dimen/activity_horizontal_margin"
+       android:layout_height="80dp">
+
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/editTextNamev1"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/Name"
+            android:translationY="5dp"
+            android:inputType="textEmailAddress"
+            android:background="@color/white"
+            android:textColorHint="@color/darkgrey"
+            android:textColor="@color/colorAccent"
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/lightgreen"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_height="80dp">
+
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/editTextEmailv1"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/Email"
+            android:translationY="5dp"
+            android:inputType="textEmailAddress"
+            android:background="@color/white"
+            android:textColorHint="@color/darkgrey"
+            android:textColor="@color/colorAccent"
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/lightgreen"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_height="80dp">
+
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/editTextSubjectv1"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/subject"
+            android:translationY="5dp"
+            android:inputType="textEmailAddress"
+            android:background="@color/white"
+            android:textColorHint="@color/darkgrey"
+            android:textColor="@color/colorAccent"
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/lightgreen"
+        android:layout_marginTop="@dimen/activity_horizontal_margin">
+    <android.support.design.widget.TextInputEditText
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:id="@+id/editTextMessagev1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:hint="@string/Message"
+        android:translationY="5dp"
+        android:background="@color/white"
+        android:textColorHint="@color/darkgrey"
+        android:padding="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:text="Submit"
+            android:textColor="#fff" />
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

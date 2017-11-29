@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contact_us"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asmaa.asmaa_task2_taboogh.Activities.ContactUsActivity">
+
+
+
+    <LinearLayout
+        style="@style/LinearTitle"
+        android:background="@drawable/background"
+        android:layout_height="60dp"
+        android:id="@id/layout_titleContactUs">
+
+
+        <TextView
+            android:text="@string/contact_us"
+            style="@style/Title"
+
+            />
+    </LinearLayout>
+    <ScrollView
+        android:layout_below="@id/layout_titleContactUs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/Linear_padding">
+
+
+        <EditText
+            android:id="@+id/editTextName"
+            style="@style/form"
+            android:drawableStart="@drawable/avatar"
+            android:hint="@string/Name"
+            android:inputType="textPersonName"
+            android:layout_marginTop="16dp" />
+
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            style="@style/form"
+            android:drawableStart="@drawable/mail"
+            android:hint="@string/Email"
+
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="@dimen/editText_marginTop" />
+
+        <EditText
+            android:id="@+id/editTextSubject"
+            style="@style/form"
+            android:hint="@string/subject"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="@dimen/editText_marginTop" />
+
+        <EditText
+             android:id="@+id/editTextMessage"
+             style="@style/form"
+             android:hint="@string/Message"
+            android:gravity="top"
+            android:layout_height="150dp"
+             android:inputType="textMultiLine"
+             android:layout_marginTop="@dimen/editText_marginTop" />
+
+
+        <Button
+            android:id="@+id/buttonContactUs"
+            style="@style/buttons"
+            android:text="@string/Send"
+            android:layout_marginTop="25dp"
+           />
+
+    </LinearLayout>
+ </ScrollView>
+
+
+
+
+</RelativeLayout>

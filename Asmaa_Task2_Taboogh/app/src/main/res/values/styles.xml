@@ -1,0 +1,103 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <style name="StyleParagraph">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:drawablePadding">@dimen/icon_padding</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:layout_marginTop">@dimen/text_marginTop</item>
+    </style>
+
+
+
+    <style name="Title">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:shadowColor">@color/grey</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:padding">@dimen/title_paddingTop</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+
+    <style name="LinearTitle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+
+    </style>
+
+
+
+
+    <style name="linearContent">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/content_backgroud</item>
+        <item name="android:layout_margin">@dimen/linear_margin</item>
+        <item name="android:padding">@dimen/linear_padding</item>
+    </style>
+
+
+
+    <style name="Container">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/background</item>
+        <item name="android:weightSum">1</item>
+    </style>
+
+
+
+
+    <style name="form">
+        <item name="android:textColorHint">@color/inputtext</item>
+        <item name="android:padding">@dimen/padding_input</item>
+        <item name="android:drawablePadding">@dimen/padding20</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/input</item>
+
+    </style>
+
+    <style name="buttons">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/round_button_blue</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">@dimen/text_size_button</item>
+    </style>
+
+    <style name="banner">
+        <item name="android:layout_width">308dp</item>
+        <item name="android:layout_height">62dp</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+</resources>
